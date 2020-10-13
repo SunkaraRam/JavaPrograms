@@ -17,7 +17,7 @@ public class FrFw {
 		
 		FileReader fr = new FileReader(file);
 		
-		BufferedReader br = new BufferedReader(fr);
+		BufferedReader br = new BufferedReader(fr);//This is index of BufferedReader
 				
 			while ((line=br.readLine())!=null) {
 				
@@ -27,7 +27,7 @@ public class FrFw {
 			
 		} catch (Exception e) {
 
-			System.out.println("File not found exception");
+			System.out.println("File not found exception");// It will handle the checked exception
 			
 		}
 		
